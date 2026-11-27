@@ -12,10 +12,10 @@ for (var i = 0; i < links.length; i++) {
     });
 }
 
-var form = document.getElementById("contactForm");
-form.addEventListener("submit", function (event) {
-    event.preventDefault();
+var myForm = document.getElementById("contactForm");
+myForm.addEventListener("submit", function (e) {
+    e.preventDefault();
     var name = document.getElementById("name").value;
     alert("Thank you, " + name + "! Your message has been received.");
-    form.reset();
+    myForm.reset();
 });
