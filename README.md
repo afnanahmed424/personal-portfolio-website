@@ -1,27 +1,16 @@
 # Personal Portfolio Website
 
-My first portfolio website, made with HTML, CSS and JavaScript. It has sections for home, about, skills, projects and contact, and it works on mobile screens too.
+My first portfolio website, made with HTML, CSS and JavaScript. You can see it live here: [afnanahmed424.github.io/personal-portfolio-website](https://afnanahmed424.github.io/personal-portfolio-website/)
 
-> Semester project for **Application of Information & Communication Technologies (Fall 2023)** — rebuilt and documented for this portfolio.
+## What is in it
 
-## Live Demo
-
-[afnanahmed424.github.io/personal-portfolio-website](https://afnanahmed424.github.io/personal-portfolio-website/)
-
-## Features
-
+- Home, about, skills, projects and contact sections
 - Sticky navigation bar with section links
 - Mobile menu that opens and closes with JavaScript
-- Skills section and project cards with GitHub links
+- Project cards with GitHub links
 - Contact form with a thank-you message on submit
-- Responsive design for small screens
+- Responsive layout for small screens
 
-## Concepts used
+It uses plain HTML structure (header, nav, sections, footer, form), CSS flexbox with hover effects and a media query for mobile, and a little JavaScript for the menu and form handling. To run it locally, just open `index.html` in a browser — no server needed.
 
-- HTML structure: header, nav, sections, footer, form
-- CSS: flexbox layout, hover effects, media query for mobile
-- JavaScript: DOM selection, click events, form submit handling
-
-## How to run
-
-Download the files and open `index.html` in any browser. No server or installation needed.
+This was my semester project for Application of Information & Communication Technologies (Fall 2023), rebuilt and documented for this portfolio.
